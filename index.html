@@ -7,13 +7,25 @@
 </head>
 
 <body>
-    <h1><span id="p1">0</span> to <span id="p2">0</span></h1>
-    <p>Playing to: <span>5</span></p>
-
-    <input type="number">
-    <button id="btn1">Player One</button>
-    <button id="btn2">Player Two</button>
-    <button id="btn3">Reset</button>
+    <div id="container">
+        <h1>Score Tracker</h1>
+        <div id="bGame">
+            <p>Name of the players</p>
+            <input type="text" placeholder="Player 1">
+            <input type="text" placeholder="Player 2"> <br>
+            <button id="btn">Start a Game</button>
+            <p id="msg"></p>
+        </div>
+        <div id="game">
+            <h2> <span></span> - <span></span> </h2>
+            <h1> <button id="btn1">+</button>
+                <span id="p1">0</span> to <span id="p2">0</span>
+                <button id="btn2">+</button></h1>
+            <p>Playing to: <input type="number" min="1" max="10">
+            </p>
+            <button id="btn3">Start a New Game</button>
+        </div>
+    </div>
 
 
     <script type="text/javascript" src="app.js"></script>

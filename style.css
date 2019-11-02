@@ -1,3 +1,32 @@
+body {
+    background-image: url("original.jpg");
+    color: white;
+    font-family: sans-serif;
+}
+
 .winner {
-    color: green;
+    color: rgb(158, 233, 158);
+}
+
+#container {
+    text-align: center;
+    margin: 0 auto;
+}
+
+button {
+    margin: 20px auto;
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 15px 32px;
+    font-size: 16px;
+}
+
+#btn1,
+#btn2 {
+    padding: 10px 16px;
+}
+
+input {
+    border: 3px solid rgb(133, 226, 114);
 }
